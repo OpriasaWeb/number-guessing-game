@@ -1,0 +1,66 @@
+2025-04-06 11:32:59.374 [info] [main] Log level: Info
+2025-04-06 11:32:59.374 [info] [main] Validating found git in: "git"
+2025-04-06 11:32:59.374 [info] [main] Using git "2.43.0" from "git"
+2025-04-06 11:32:59.374 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-06 11:32:59.374 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-06 11:32:59.374 [info] > git rev-parse --git-dir --git-common-dir [23ms]
+2025-04-06 11:32:59.374 [info] [Model][openRepository] Opened repository: /workspace/project
+2025-04-06 11:32:59.374 [info] > git config --get commit.template [6ms]
+2025-04-06 11:32:59.374 [info] > git rev-parse --show-toplevel [125ms]
+2025-04-06 11:32:59.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2025-04-06 11:32:59.374 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2025-04-06 11:32:59.374 [info] > git rev-parse --show-toplevel [31ms]
+2025-04-06 11:32:59.374 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-04-06 11:32:59.374 [info] > git status -z -uall [6ms]
+2025-04-06 11:32:59.374 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-06 11:32:59.374 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-04-06 11:32:59.374 [info] > git rev-parse --git-dir --git-common-dir [21ms]
+2025-04-06 11:32:59.374 [info] [Model][openRepository] Opened repository: /workspace/project/number_guessing_game
+2025-04-06 11:32:59.374 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-06 11:32:59.374 [info] > git config --get commit.template [9ms]
+2025-04-06 11:32:59.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-04-06 11:32:59.374 [info] > git config --get commit.template [7ms]
+2025-04-06 11:32:59.374 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-06 11:32:59.374 [info] > git config --get --local branch.main.vscode-merge-base [12ms]
+2025-04-06 11:32:59.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-04-06 11:32:59.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2025-04-06 11:32:59.374 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2025-04-06 11:32:59.374 [info] > git status -z -uall [10ms]
+2025-04-06 11:32:59.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2025-04-06 11:32:59.374 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-04-06 11:32:59.374 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+2025-04-06 11:32:59.384 [info] > git status -z -uall [21ms]
+2025-04-06 11:32:59.384 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-04-06 11:32:59.393 [info] > git merge-base refs/heads/main refs/remotes/origin/main [35ms]
+2025-04-06 11:32:59.398 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-04-06 11:32:59.403 [info] > git config --get commit.template [24ms]
+2025-04-06 11:32:59.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2025-04-06 11:32:59.409 [info] > git diff --name-status -z --diff-filter=ADMR 5c333867a354f09c3c077e84a99d4eab301944b6...refs/remotes/origin/main [6ms]
+2025-04-06 11:32:59.409 [info] > git diff --name-status -z --diff-filter=ADMR 5c333867a354f09c3c077e84a99d4eab301944b6...refs/remotes/origin/main [12ms]
+2025-04-06 11:32:59.414 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-06 11:32:59.414 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2025-04-06 11:32:59.414 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-06 11:32:59.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-06 11:32:59.429 [info] > git status -z -uall [5ms]
+2025-04-06 11:32:59.429 [info] > git reflog main --grep-reflog=branch: Created from *. [10ms]
+2025-04-06 11:32:59.430 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-04-06 11:32:59.866 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-06 11:33:01.808 [info] > git config --get --local branch.main.github-pr-owner-number [2ms]
+2025-04-06 11:33:01.808 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-06 11:33:01.815 [info] > git config --get --local branch.main.remote [2ms]
+2025-04-06 11:33:01.815 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-06 11:33:01.822 [info] > git config --get --local branch.main.merge [1ms]
+2025-04-06 11:33:01.822 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-06 11:33:01.982 [info] > git config --get --local branch.main.github-pr-owner-number [2ms]
+2025-04-06 11:33:01.982 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-06 11:33:20.588 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-06 11:33:20.588 [info] > git config --get commit.template [7ms]
+2025-04-06 11:33:20.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-06 11:33:20.602 [info] > git status -z -uall [6ms]
+2025-04-06 11:33:20.603 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-04-06 11:33:27.193 [info] > git show --textconv :number_guess.sql [7ms]
+2025-04-06 11:33:27.194 [info] > git ls-files --stage -- number_guess.sql [2ms]
+2025-04-06 11:33:27.203 [info] > git cat-file -s 5275134cda0e0aa7f6f54e52a96290b1e8d3941d [1ms]
+2025-04-06 11:33:36.171 [info] > git show --textconv :README.md [6ms]
+2025-04-06 11:33:36.172 [info] > git ls-files --stage -- README.md [2ms]
+2025-04-06 11:33:36.179 [info] > git cat-file -s f05f30d82db9cea686c171e85f7ec6cb84052388 [2ms]

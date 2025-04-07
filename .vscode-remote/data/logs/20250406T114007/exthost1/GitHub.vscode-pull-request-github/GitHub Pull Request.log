@@ -1,0 +1,32 @@
+2025-04-06 11:40:16.304 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2025-04-06 11:40:16.304 [info] [Activation] Extension version: 0.108.0
+2025-04-06 11:40:18.335 [info] [Activation] Looking for git repository
+2025-04-06 11:40:18.335 [info] [Activation] Found 0 repositories during activation
+2025-04-06 11:40:18.335 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-04-06 11:40:18.340 [info] [GitAPI] Registering git provider
+2025-04-06 11:40:18.340 [info] [Review+0] Validate state in progress
+2025-04-06 11:40:18.340 [info] [Review+0] Validating state...
+2025-04-06 11:40:18.340 [info] [Review+1] Validate state in progress
+2025-04-06 11:40:18.340 [info] [Review+1] Validating state...
+2025-04-06 11:40:18.340 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-04-06 11:40:18.340 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /workspace/project/number_guessing_game
+2025-04-06 11:40:18.341 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-04-06 11:40:18.351 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-04-06 11:40:18.359 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-04-06 11:40:18.521 [info] [FolderRepositoryManager+1] Found GitHub remote for folder /workspace/project
+2025-04-06 11:40:18.522 [info] [FolderRepositoryManager+1] Trying to use globalState for assignableUsers.
+2025-04-06 11:40:18.528 [info] [FolderRepositoryManager+0] GlobalState does not exist for assignableUsers.
+2025-04-06 11:40:18.530 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2025-04-06 11:40:18.530 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2025-04-06 11:40:18.700 [info] [FolderRepositoryManager+1] GlobalState does not exist for assignableUsers.
+2025-04-06 11:40:22.706 [info] [Activation] Repo state for file:///workspace/project/number_guessing_game changed.
+2025-04-06 11:40:22.706 [info] [Activation] Repo file:///workspace/project/number_guessing_game has already been setup.
+2025-04-06 11:40:38.047 [info] [Activation] Repo state for file:///workspace/project changed.
+2025-04-06 11:40:38.047 [info] [Activation] Repo file:///workspace/project has already been setup.
+2025-04-06 11:42:39.904 [info] [Review+0] Validate state in progress
+2025-04-06 11:42:39.904 [info] [Review+0] Validating state...
+2025-04-06 11:42:39.905 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-04-06 11:42:39.905 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /workspace/project/number_guessing_game
+2025-04-06 11:42:39.906 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-04-06 11:42:39.917 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-04-06 11:42:39.924 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main

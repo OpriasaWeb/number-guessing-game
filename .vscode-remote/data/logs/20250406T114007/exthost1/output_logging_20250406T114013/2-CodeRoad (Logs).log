@@ -1,0 +1,127 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Continuing tutorial from progress: level 1 step 1.1
+LOAD_STORED_TUTORIAL
+EDITOR_TUTORIAL_CONTINUE_CONFIG
+Tutorial: Number Guessing Game (2.0.0)
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": Completed level 1, step 1.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 4fa49de0813232340d15fa81ec72494815789b21
+Calling command: git log -g --grep='1.1'
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+TEST_FAIL
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+CREATE ROLE
+
+COMMAND_SUCCESS
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 1, step 1.1
+EDITOR_SYNC_POSITION
+EDITOR_TUTORIAL_COMPLETE
+STATE: "Tutorial.Completed"
+ROUTE: "Tutorial.Completed": Completed level 1, step 1.1
+Called webhook endpoint https://api.freecodecamp.org/coderoad-challenge-completed with body "{\"tutorialId\":\"freeCodeCamp/learn-number-guessing-game:v1.0.0\"}"

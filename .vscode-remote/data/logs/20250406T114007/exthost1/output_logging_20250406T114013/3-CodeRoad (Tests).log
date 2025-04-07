@@ -1,0 +1,51 @@
+FAILED TEST LOG
+
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+An error occurred running ./number_guessing_game/number_guess.sh
+psql: error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  role "freecodecamp" does not exist
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

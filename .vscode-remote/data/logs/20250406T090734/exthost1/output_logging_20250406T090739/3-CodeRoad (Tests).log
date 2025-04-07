@@ -1,0 +1,569 @@
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :1 You should create a "number_guessing_game" folder in the correct location
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(directoryContents.includes('number_guessing_game'))
+
+at Context.<anonymous> (test/1.1.test.js:49:5)
+  ✘ SUBTASKS 1.1 :2 You should create "number_guess.sh" and give it executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(executable)
+
+at Context.<anonymous> (test/1.1.test.js:55:5)
+  ✘ SUBTASKS 1.1 :3 Your "number_guess.sh" file should have the correct shebang at the top
+
+Error: ENOENT: no such file or directory, open '../number_guessing_game/number_guess.sh'
+  ✘ SUBTASKS 1.1 :4 You should turn the "number_guessing_game" in a git repository
+
+Error: ENOENT: no such file or directory, scandir '../number_guessing_game'
+  ✘ SUBTASKS 1.1 :5 Your repository should have at least five commits
+
+Error: The path ../number_guessing_game was not found
+at validatePath (node_modules/git-parse/dist/util.js:27:11)
+at gitToJs (node_modules/git-parse/dist/index.js:44:28)
+at getCommits (test/utils.js:65:25)
+at Context.<anonymous> (test/1.1.test.js:73:27)
+at process.processImmediate (node:internal/timers:478:21)
+  ✘ SUBTASKS 1.1 :6 Your script should generate a random number to guess
+
+Error: ENOENT: no such file or directory, open '../number_guessing_game/number_guess.sh'
+
+An error occurred running ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+  ✘ SUBTASKS 1.1 :7 Your script should prompt for a username
+
+Error: Command failed: ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+
+An error occurred running ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+Error: Command failed: ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+
+An error occurred running ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+  ✘ SUBTASKS 1.1 :9 Your script should print the correct welcome message for new users
+
+Error: Command failed: ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+
+An error occurred running ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+  ✘ SUBTASKS 1.1 :10 Your script should print the correct initial message to prompt a user for a guess
+
+Error: Command failed: ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+
+An error occurred running ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+  ✘ SUBTASKS 1.1 :11 Your script should print the correct messages if they do not guess the correct number
+
+Error: Command failed: ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+
+An error occurred running ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+  ✘ SUBTASKS 1.1 :12 Your script should print the correct message if users enter a guess other than a number
+
+Error: Command failed: ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+
+An error occurred running ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+Error: Command failed: ./number_guessing_game/number_guess.sh
+/bin/sh: 1: ./number_guessing_game/number_guess.sh: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+  ✘ SUBTASKS 1.1 :14 Your first commit should have the message, "Initial commit"
+
+Error: The path ../number_guessing_game was not found
+at validatePath (node_modules/git-parse/dist/util.js:27:11)
+at gitToJs (node_modules/git-parse/dist/index.js:44:28)
+at getCommits (test/utils.js:65:25)
+at Context.<anonymous> (test/1.1.test.js:137:27)
+at process.processImmediate (node:internal/timers:478:21)
+  ✘ SUBTASKS 1.1 :15 Your commit messages should have the suggested prefixes
+
+Error: The path ../number_guessing_game was not found
+at validatePath (node_modules/git-parse/dist/util.js:27:11)
+at gitToJs (node_modules/git-parse/dist/index.js:44:28)
+at getCommits (test/utils.js:65:25)
+at Context.<anonymous> (test/1.1.test.js:145:27)
+at process.processImmediate (node:internal/timers:478:21)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+Error: spawn /bin/bash ENOENT
+at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+at onErrorNT (node:internal/child_process:484:16)
+at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :5 Your repository should have at least five commits
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(commits.length > 4)
+
+at Context.<anonymous> (test/1.1.test.js:77:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :6 Your script should generate a random number to guess
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/RANDOM/.test(fileContents))
+
+at Context.<anonymous> (test/1.1.test.js:83:5)
+  ✘ SUBTASKS 1.1 :7 Your script should prompt for a username
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Enter your username:/.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:89:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :9 Your script should print the correct welcome message for new users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:106:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :10 Your script should print the correct initial message to prompt a user for a guess
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Guess\s+the\s+secret\s+number\s+between\s+1\s+and\s+1000:/.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:112:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :11 Your script should print the correct messages if they do not guess the correct number
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/It's higher than that, guess again:/.test(scriptOutput) && /It's lower than that, guess again:/.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:118:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :12 Your script should print the correct message if users enter a guess other than a number
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/That is not an integer, guess again:/.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:124:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+  ✘ SUBTASKS 1.1 :15 Your commit messages should have the suggested prefixes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(commits.length > 0)
+
+at Context.<anonymous> (test/1.1.test.js:156:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :5 Your repository should have at least five commits
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(commits.length > 4)
+
+at Context.<anonymous> (test/1.1.test.js:77:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :6 Your script should generate a random number to guess
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/RANDOM/.test(fileContents))
+
+at Context.<anonymous> (test/1.1.test.js:83:5)
+  ✘ SUBTASKS 1.1 :7 Your script should prompt for a username
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Enter your username:/.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:89:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :9 Your script should print the correct welcome message for new users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:106:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :10 Your script should print the correct initial message to prompt a user for a guess
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Guess\s+the\s+secret\s+number\s+between\s+1\s+and\s+1000:/.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:112:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :11 Your script should print the correct messages if they do not guess the correct number
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/It's higher than that, guess again:/.test(scriptOutput) && /It's lower than that, guess again:/.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:118:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :12 Your script should print the correct message if users enter a guess other than a number
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/That is not an integer, guess again:/.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:124:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :15 Your commit messages should have the suggested prefixes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(commits.length > 0)
+
+at Context.<anonymous> (test/1.1.test.js:156:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :5 Your repository should have at least five commits
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(commits.length > 4)
+
+at Context.<anonymous> (test/1.1.test.js:77:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :8 Your script should print the correct welcome message for returning users
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:98:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :13 Your script should print the correct message when a game is finished
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptOutput))
+
+at Context.<anonymous> (test/1.1.test.js:133:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :16 You should submit your project while on the "main" branch of your repository with a clean working tree
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/On branch main\s/.test(commandOutput) && /working tree clean/.test(commandOutput))
+
+at Context.<anonymous> (test/1.1.test.js:164:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
